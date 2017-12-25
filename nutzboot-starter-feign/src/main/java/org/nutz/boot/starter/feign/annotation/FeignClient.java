@@ -11,5 +11,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface FeignClient {
-    String apiBaseUrl="";
+    //对应properties里 feign.baseUrl
+    String baseUrlName() default "baseUrl";
 }

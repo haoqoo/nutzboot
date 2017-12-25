@@ -55,8 +55,8 @@ public class FeignStarter {
                         .decoder(new JacksonDecoder())
                         .target(klass, "http://localhost:8080");
                 //iocContext.save("app",klass.getSimpleName(),objectProxy.setObj(o));
-                feignRegister.add(key,o);
-                log.debug("feignRegister cache "+key);
+                feignRegister.add(key, o);
+                log.debug("feignRegister cache " + key);
             }
         }
 
