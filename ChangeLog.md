@@ -1,18 +1,34 @@
 # NB进化史
 
-## dev
+## 2.0 "Merry Christmas"
+
+大家昨晚都很累吧 ^_^
+
+* 添加zookeeper集成,由[天空](https://github.com/tiankongkm)提供
+* 添加Vecloity模板引擎,由[haoqoo](https://github.com/haoqoo)提供
+* 修正了几个bug
+
+* 时间: 2017-12-25
+* 事件: 第一个正式版,GA级别
+* 曲目: [Merry Christmas](https://www.youtube.com/watch?v=_f04x4Uu51A)
 
 * 变更:
 	* add: zkclient by [天空](https://github.com/tiankongkm)
 	* add: Vecloity模板引擎 by [haoqoo](https://github.com/haoqoo)
 	* add: daocache配置化
+	* add: undertow 支持websocket by [qinerg](https://github.com/qinerg)
+	* add: jetty 支持更详细的配置 by [haoqoo](https://github.com/haoqoo)
+	* add: mongodb 支持集群配置 issue by [科技](https://github.com/Rekoe)
+	* add: cxf 支持webservice
 	* update: beetl升级到2.7.25
 	* update: beetlsql升级到2.10.3
 	* update: zbus升级到0.11.4
 	* update: dubbo升级到2.5.8
 	* update: tomcat升级到8.5.48
 	* update: undertow升级到1.4.21-Final
+	* remove: 移除配置项web.filters.order
 	* fix: 清理pom.xml中的依赖关系
+	* fix: beetl模板的自定义属性没有生效  issue by [道坤](https://github.com/albinhdk)
 
 ## 2.0-RC2 "My Love"
 

@@ -69,7 +69,11 @@ public class MainLauncher {
 }
 ```
 
+[![asciicast](https://asciinema.org/a/40Brr8ZNsHx1ILfjhJ7zppJ3v.png)](https://asciinema.org/a/40Brr8ZNsHx1ILfjhJ7zppJ3v)
+
 请访问 [https://get.nutz.io](https://get.nutz.io) 获取属于您的基础代码
+
+
 
 ### Demo
 
@@ -86,8 +90,8 @@ public class MainLauncher {
 * [温泉](https://github.com/ywjno)(提交thymeleaf)
 * [科技](https://github.com/Rekoe)(探路者,正在踩坑,正在做后台模板)
 * [潇潇](https://github.com/howe)(探路者,生产环境填坑中)
-* 道坤(探路者,正在踩坑)
-* HeTaro(探路者,正在踩坑)
+* [道坤](https://github.com/albinhdk)(探路者,正在踩坑)
+* [HeTaro](https://gitee.com/HeTaro)(探路者,正在踩坑)
 * [zozoh](https://github.com/zozoh)(路过...)
 * [wendal](https://github.com)(到处挖坑)
 * [瞎折腾](https://gitee.com/lx19990999)(添加了demo-maker的几个选项)
@@ -156,7 +160,7 @@ public class MainLauncher {
 - 模板引擎
 	- [x] [Beetl](http://ibeetl.com/) 
 	- [x] [jetbrick-template](https://github.com/subchen/jetbrick-template-2x)
-	- [x] Vecloity by [haoqoo](https://github.com/haoqoo)
+	- [x] Velocity by [haoqoo](https://github.com/haoqoo)
 	- [ ] FreeMarker
 	- [x] Thymeleaf by [温泉](https://github.com/ywjno)
 - 消息队列
@@ -187,7 +191,7 @@ public class MainLauncher {
 - docker相关
 	- [ ] docker compose配置
 - WebService
-	- [ ] CXF
+	- [x] CXF
 - 分布式组件
 	- [x] zkclient zookeeper的封装
 ## 第三方starter或项目

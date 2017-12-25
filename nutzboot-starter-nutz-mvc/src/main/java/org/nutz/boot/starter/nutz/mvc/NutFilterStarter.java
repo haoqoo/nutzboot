@@ -51,8 +51,11 @@ public class NutFilterStarter implements WebFilterFace {
         if (conf.has("nutz.mvc.ignore")) {
         	params.put("ignore", conf.get("nutz.mvc.ignore"));
         }
-        params.put("exclusions", conf.get("nutz.mvc.exclusions", "/druid/*,/uflo/*,/swagger/*"));
+        params.put("exclusions", conf.get("nutz.mvc.exclusions", "/druid/*,/uflo/*,/webservice/*,/swagger/*"));
         return params;
     }
 
+    public int getOrder() {
+        return conf.getInt("web.filter.order.nutz", FilterOrder.NutFilter);
+    }
 }
